@@ -5,7 +5,7 @@
     justify-content : center;
     background-color : grey;
     border-radius : 20px;
-    width: 30vw;
+    width: 50vw;
     height: auto;
     padding : 2%;
     gap : 1em;
@@ -25,7 +25,7 @@
 input {
     background-color : aqua;
     border: 5px solid black;
-    width: 20vw;
+    width: 30vw;
 }
 
 button {
