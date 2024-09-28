@@ -4,7 +4,7 @@
 
 ## Built With
 
-Mini Calculator App : <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
+Mini Calculator Application : <a href="https://abisheksr-mini-calculator-app.vercel.app" target="_blank">Mini Calculator App</a>
 
 This project was built using these technologies.
 
