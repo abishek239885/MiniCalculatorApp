@@ -3,11 +3,10 @@
     flex-direction : column;
     align-items : center;
     justify-content : center;
-    margin-top : 40vh;
     background-color : grey;
     border-radius : 20px;
     width: 30vw;
-    margin-left: 35vw;  
+    height: auto;
     padding : 2%;
     gap : 1em;
     flex-wrap : wrap;
@@ -26,6 +25,7 @@
 input {
     background-color : aqua;
     border: 5px solid black;
+    width: 20vw;
 }
 
 button {
