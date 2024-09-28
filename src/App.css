@@ -1,0 +1,54 @@
+.container {
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    margin-top : 40vh;
+    background-color : grey;
+    border-radius : 20px;
+    width: 30vw;
+    margin-left: 35vw;  
+    padding : 2%;
+    gap : 1em;
+    flex-wrap : wrap;
+}
+
+.container > * {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+input {
+    background-color : aqua;
+    border: 5px solid black;
+}
+
+button {
+    width : 15%;
+    border : 2px solid black;
+    border-radius : 3px;
+}
+
+.zero button, .equals button {
+    width : 55%;
+}
+
+@media(max-width : 850px){
+    button {
+        width: 35%;
+    }
+
+    .zero button, .equals button {
+        width: 75%;
+    }
+
+    .one-two-three button:last-of-type, .four-five-six button:last-of-type, .seven-eight-nine button:last-of-type {
+        width: 75%;
+    }
+}
+
